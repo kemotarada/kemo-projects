@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="أستوريا للعقارات الفاخرة - نفتح لك أبواب أكثر القصور والبنتهاوس حصرية في أرقى الوجهات العالمية بخصوصية مطلقة وخدمة استشارية متفردة.">
+    <title>أستوريا للعقارات الفاخرة | Astoria Luxury Properties</title>
+    <!-- Google Fonts: Alexandria -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#hero" class="brand-logo">
+                <span class="logo-gold">ASTORIA</span>
+                <span class="logo-sub">أستوريا للعقارات الفاخرة</span>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#hero">الرئيسية</a></li>
+                    <li><a href="#curated-collection">المجموعة الخاصة</a></li>
+                    <li><a href="#architectural-story">فلسفة المعمار</a></li>
+                    <li><a href="#private-advisory">المكتب الاستشاري</a></li>
+                    <li><a href="#market-insights">مؤشر السوق</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="#vip-inquiry" class="btn btn-outline header-consult-btn">استشارة خاصة</a>
+                <button class="mobile-menu-toggle" aria-label="افتح القائمة" aria-expanded="false" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#hero">الرئيسية</a></li>
+                <li><a href="#curated-collection">المجموعة الخاصة</a></li>
+                <li><a href="#architectural-story">فلسفة المعمار</a></li>
+                <li><a href="#private-advisory">المكتب الاستشاري</a></li>
+                <li><a href="#market-insights">مؤشر السوق</a></li>
+                <li><a href="#vip-inquiry" class="btn btn-gold">طلب استشارة سرية</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-bg-media">
+                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80" alt="قصر فاخر عند الغروب" class="hero-img">
+            </div>
+            <div class="container hero-container-content">
+                <div class="hero-badge">Quiet Luxury • هدوء النخبة</div>
+                <h1 class="hero-title">تحف معمارية لا تتكرر،<br><span class="text-gold">صُممت لمن يصنعون التاريخ</span></h1>
+                <p class="hero-subtitle">نفتح لك أبواب أكثر القصور والبنتهاوس حصرية في أرقى الوجهات العالمية، بخصوصية مطلقة وخدمة استشارية متفردة تليق بتطلعاتك.</p>
+
+                <div class="hero-actions">
+                    <a href="#curated-collection" class="btn btn-gold">استكشف المجموعة الحصرية</a>
+                    <a href="#vip-inquiry" class="btn btn-outline-white">طلب استشارة سرية</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Standalone Search Section (Fixed clutered hero issue) -->
+        <section class="search-section-wrapper">
+            <div class="container">
+                <div class="search-widget">
+                    <div class="search-field">
+                        <label for="searchDest">الوجهة المفضلة</label>
+                        <select id="searchDest">
+                            <option>الرياض (الهدا، حطين)</option>
+                            <option>دبي (نخلة جميرا)</option>
+                            <option>لندن (بيلغرافيا)</option>
+                            <option>سويسرا (جنيف)</option>
+                        </select>
+                    </div>
+                    <div class="search-field">
+                        <label for="searchType">نوع العقار</label>
+                        <select id="searchType">
+                            <option>قصر ملكي</option>
+                            <option>بنتهاوس بانورامي</option>
+                            <option>فيلا معمارية فائقة</option>
+                        </select>
+                    </div>
+                    <div class="search-field">
+                        <label for="searchBudget">النطاق الاستثماري</label>
+                        <select id="searchBudget">
+                            <option>حسب الطلب (Off-Market)</option>
+                            <option>+20 مليون دولار</option>
+                            <option>+50 مليون دولار</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-gold search-btn">
+                        <span>بحث خاص</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Curated Collection Section -->
+        <section id="curated-collection" class="collection-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">المجموعة الخاصة</span>
+                    <h2 class="section-title">إصدارات معمارية محدودة</h2>
+                    <p class="section-desc">نخبة من الأصول العقارية النادرة التي لا تُعرض للعامة، تم اختيارها بعناية فائقة لتلائم معايير الرفاهية الهادئة والخصوصية المطلقة.</p>
+                </div>
+
+                <div class="property-grid">
+                    <!-- Property Card 1 -->
+                    <div class="property-card" data-day-img="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" data-night-img="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80">
+                        <div class="card-media">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="فيلا أوريليوس" class="property-img">
+                            <div class="card-badge">إطلالة بحرية كاملة</div>
+                            <div class="view-toggle">
+                                <button class="toggle-btn active" data-mode="day">نهاراً</button>
+                                <button class="toggle-btn" data-mode="night">ليلاً</button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="property-meta">
+                                <span>الرياض، الهدا</span>
+                                <span class="price-tag">السعر عند الطلب</span>
+                            </div>
+                            <h3 class="property-title">فيلا أوريليوس المعمارية</h3>
+                            <p class="property-brief">تحفة فنية مستوحاة من العمارة الرومانية الحديثة، ممتدة على مساحة 3,200 متر مربع من الرخام الإيطالي والواجهات الزجاجية الممتدة.</p>
+                            <div class="property-specs">
+                                <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg> 6 أجنحة</span>
+                                <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg> خصوصية مطلقة</span>
+                                <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M9 3v18"></path></svg> 3,200 م²</span>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#vip-inquiry" class="btn btn-link">طلب معاينة خاصة ←</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Property Card 2 -->
+                    <div class="property-card" data-day-img="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" data-night-img="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80">
+                        <div class="card-media">
+                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="بنتهاوس السحاب" class="property-img">
+                            <div class="card-badge">أفق بانورامي</div>
+                            <div class="view-toggle">
+                                <button class="toggle-btn active" data-mode="day">نهاراً</button>
+                                <button class="toggle-btn" data-mode="night">ليلاً</button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="property-meta">
+                                <span>دبي، نخلة جميرا</span>
+                                <span class="price-tag">السعر عند الطلب</span>
+                            </div>
+                            <h3 class="property-title">بنتهاوس السحاب البانورامي</h3>
+                            <p class="property-brief">يعلو فوق السحاب بإطلالة 360 درجة على الخليج العربي، مجهز بمهبط طائرات خاص ومسبح لامتناهي معلق في الأفق.</p>
+                            <div class="property-specs">
+                                <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg> 5 أجنحة ملكية</span>
+                                <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg> مصعد خاص</span>
+                                <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M9 3v18"></path></svg> 1,850 م²</span>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#vip-inquiry" class="btn btn-link">طلب معاينة خاصة ←</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Property Card 3 -->
+                    <div class="property-card" data-day-img="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" data-night-img="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80">
+                        <div class="card-media">
+                            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="قصر الألاباستر" class="property-img">
+                            <div class="card-badge">تحفة كلاسيكية حديثة</div>
+                            <div class="view-toggle">
+                                <button class="toggle-btn active" data-mode="day">نهاراً</button>
+                                <button class="toggle-btn" data-mode="night">ليلاً</button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="property-meta">
+                                <span>لندن، بيلغرافيا</span>
+                                <span class="price-tag">السعر عند الطلب</span>
+                            </div>
+                            <h3 class="property-title">قصر الألاباستر التاريخي</h3>
+                            <p class="property-brief">قصر إدواردي تاريخي تم إعادة تصميمه بالكامل من الداخل بواسطة أشهر المصممين العالميين، يجمع بين عراقة الماضي وتقنيات المستقبل.</p>
+                            <div class="property-specs">
+                                <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg> 8 أجنحة</span>
+                                <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg> حديقة سرية</span>
+                                <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M9 3v18"></path></svg> 4,100 م²</span>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#vip-inquiry" class="btn btn-link">طلب معاينة خاصة ←</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Living As Art Section -->
+        <section id="architectural-story" class="philosophy-section">
+            <div class="container philosophy-grid-container">
+                <div class="philosophy-content">
+                    <span class="section-tag">فلسفة المكان والمعمار</span>
+                    <h2 class="section-title">العيش كفنّ رفيع <br><span class="text-gold">Living As Art</span></h2>
+                    <p class="philosophy-text">نحن لا نبني جدراناً، بل نصوغ فضاءات تحتفي بالضوء والمساحة والخصوصية. كل ملمس، بدءاً من رخام كارارا الإيطالي النادر المقطوع بقطعة واحدة، إلى الأخشاب الطبيعية المعالجة يدوياً، يروي قصة إبداع لا تفنى.</p>
+                    
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C5A880" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>مواد خام حصرية وبصمة يدوية</h4>
+                                <p>أفخر أنواع الرخام والمعادن المصقولة بأيدي أمهر الحرفيين الأوروبيين.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C5A880" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>أنظمة ذكاء اصطناعي غير مرئية</h4>
+                                <p>تقنيات تحكم بيئي وصوتي وإضاءة تتكيف ذاتياً مع مزاجك وحركتك بسلاسة تامة.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C5A880" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>عزل صوتي وخصوصية مطلقة</h4>
+                                <p>تصاميم هندسية تضمن عزلاً صوتياً وبصرياً كاملاً عن العالم الخارجي.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="philosophy-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80" alt="تفاصيل معمارية فاخرة" class="philosophy-img">
+                    <div class="experience-badge">
+                        <span class="badge-num">25+</span>
+                        <span class="badge-txt">عاماً من الريادة المعمارية</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Private Advisory Section -->
+        <section id="private-advisory" class="advisory-section">
+            <div class="container">
+                <div class="advisory-card">
+                    <div class="advisory-content">
+                        <span class="section-tag gold-tag">مكتب الاستشارات الخاصة</span>
+                        <h2 class="advisory-title">بوابة الصفقات غير المعلنة (Off-Market)</h2>
+                        <p class="advisory-text">إن أرقى العقارات والقصور حول العالم لا تجد طريقها أبداً إلى الإنترنت أو وسائل الإعلان العامة. من خلال مكتبنا الاستشاري الخاص، نمنح النخبة من المستثمرين وصولاً حصرياً ومباشراً لأصول عقارية استثنائية تحت غطاء كامل من السرية والأمانة المهنية.</p>
+                        <div class="advisory-benefits">
+                            <div class="benefit">
+                                <strong>سرية تامة</strong>
+                                <p>اتفاقيات عدم الإفصاح وحماية كاملة لهوية المشترين والبائعين.</p>
+                            </div>
+                            <div class="benefit">
+                                <strong>إدارة المحافظ</strong>
+                                <p>تحسين وتطوير المحافظ العقارية الفاخرة لتحقيق أعلى عوائد مستدامة.</p>
+                            </div>
+                        </div>
+                        <a href="#vip-inquiry" class="btn btn-gold">تواصل مع مستشار خاص</a>
+                    </div>
+                    <div class="advisory-visual">
+                        <div class="seal-container">
+                            <div class="gold-seal">
+                                <span>ASTORIA</span>
+                                <span class="seal-inner">PRIVATE OFFICE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Market Insights Section (The Luxury Index) -->
+        <section id="market-insights" class="insights-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">مؤشر الرفاهية</span>
+                    <h2 class="section-title">رؤى واستثمارات النخبة</h2>
+                    <p class="section-desc mx-auto">تحليل بياني يوضح نمو متوسط سعر المتر المربع في المناطق الأكثر طلباً وحصرية خلال الـ 12 شهراً الماضية.</p>
+                </div>
+
+                <div class="insights-grid">
+                    <!-- Chart Column -->
+                    <div class="chart-card">
+                        <h3 class="chart-title">معدل نمو قيمة العقار الفاخر سنويًا (%)</h3>
+                        <div class="bar-chart">
+                            <div class="chart-bar-group">
+                                <div class="bar-label">الرياض (الهدا)</div>
+                                <div class="bar-wrapper">
+                                    <div class="bar" style="--target-width: 24%;"></div>
+                                    <span class="bar-value">+24%</span>
+                                </div>
+                            </div>
+                            <div class="chart-bar-group">
+                                <div class="bar-label">دبي (نخلة جميرا)</div>
+                                <div class="bar-wrapper">
+                                    <div class="bar" style="--target-width: 18%;"></div>
+                                    <span class="bar-value">+18%</span>
+                                </div>
+                            </div>
+                            <div class="chart-bar-group">
+                                <div class="bar-label">لندن (بيلغرافيا)</div>
+                                <div class="bar-wrapper">
+                                    <div class="bar" style="--target-width: 12%;"></div>
+                                    <span class="bar-value">+12%</span>
+                                </div>
+                            </div>
+                            <div class="chart-bar-group">
+                                <div class="bar-label">سويسرا (جنيف)</div>
+                                <div class="bar-wrapper">
+                                    <div class="bar" style="--target-width: 9%;"></div>
+                                    <span class="bar-value">+9%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Market Quick Stats -->
+                    <div class="stats-container">
+                        <div class="stat-box">
+                            <span class="stat-number">$4.2B</span>
+                            <span class="stat-label">إجمالي قيمة الأصول المدارة</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number">98.4%</span>
+                            <span class="stat-label">نسبة رضا العملاء وكتمان السرية</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number">140+</span>
+                            <span class="stat-label">صفقة غير معلنة تمت بنجاح</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Private Consultation (VIP Inquiry Form) -->
+        <section id="vip-inquiry" class="consultation-section">
+            <div class="container small-container">
+                <div class="consultation-card">
+                    <div class="form-header">
+                        <span class="section-tag">طلب جلسة استشارية مغلقة</span>
+                        <h2 class="form-title">دعنا نصمم مستقبلك العقاري</h2>
+                        <p class="form-desc">يرجى ملء البيانات أدناه بدقة. سيقوم أحد مستشارينا الكبار بالتواصل معك بشكل مباشر وسري خلال ساعتين كحد أقصى.</p>
+                    </div>
+
+                    <form id="vipForm" class="vip-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="clientName">الاسم الكريم</label>
+                                <input type="text" id="clientName" required placeholder="مثال: سعادة / ...">
+                            </div>
+                            <div class="form-group">
+                                <label for="clientPhone">رقم التواصل المباشر</label>
+                                <input type="tel" id="clientPhone" required placeholder="+966 50 000 0000">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="interestArea">المنطقة المستهدفة</label>
+                                <select id="interestArea">
+                                    <option>المملكة العربية السعودية</option>
+                                    <option>الإمارات العربية المتحدة</option>
+                                    <option>المملكة المتحدة (لندن)</option>
+                                    <option>أوروبا (سويسرا / فرنسا)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMethod">طريقة التواصل المفضلة</label>
+                                <select id="contactMethod">
+                                    <option>اتصال هاتفي مباشر</option>
+                                    <option>تطبيق واتساب المشفر</option>
+                                    <option>بريد إلكتروني رسمي</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="clientNotes">مواصفات خاصة تطلبها في العقار (اختياري)</label>
+                            <textarea id="clientNotes" rows="4" placeholder="مثال: رغبة في إطلالة بحرية، ممر طائرات، حراسة مشددة..."></textarea>
+                        </div>
+
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="ndaAgreement" required>
+                            <label for="ndaAgreement">أوافق على شروط السرية التامة واتفاقية حماية بيانات العملاء الخاصة بأستوريا.</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-gold btn-block">إرسال طلب الاستشارة السرية</button>
+                    </form>
+                    
+                    <!-- Success Message -->
+                    <div id="successMessage" class="success-message hidden">
+                        <div class="success-icon">
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#C5A880" stroke-width="1.5">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <h3>تم استلام طلبك الوقور بنجاح</h3>
+                        <p>لقد تم تعيين مستشار عقاري أول لطلبك. سيتم التواصل معك عبر الوسيلة المفضلة وبسرية تامة في أقرب وقت.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#hero" class="brand-logo">
+                    <span class="logo-gold">ASTORIA</span>
+                    <span class="logo-sub">أستوريا للعقارات الفاخرة</span>
+                </a>
+                <p class="footer-about-text">نحن نؤمن بأن العقار الفاخر ليس مجرد مساحة للعيش، بل هو امتداد للشخصية وإرث ينتقل عبر الأجيال.</p>
+            </div>
+            
+            <div class="footer-links-col">
+                <h4>الوصول السريع</h4>
+                <ul>
+                    <li><a href="#curated-collection">المجموعة الخاصة</a></li>
+                    <li><a href="#architectural-story">فلسفة المعمار</a></li>
+                    <li><a href="#private-advisory">المكتب الخاص</a></li>
+                    <li><a href="#market-insights">مؤشر السوق</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h4>المكاتب الإقليمية</h4>
+                <p class="office-location"><strong>الرياض:</strong> برج الفيصلية، الطابق 28</p>
+                <p class="office-location"><strong>دبي:</strong> أبراج الإمارات المالية، الطابق 42</p>
+                <p class="office-location"><strong>لندن:</strong> حي بيلغرافيا، شارع جروفنر</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>© 2026 أستوريا للعقارات الفاخرة. جميع الحقوق محفوظة. تخضع هذه المنصة لاتفاقية السرية وحماية بيانات النخبة.</p>
+                <div class="footer-legal">
+                    <a href="#">شروط الاستخدام</a>
+                    <a href="#">سياسة الخصوصية</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
